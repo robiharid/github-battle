@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /Users/robiharid/.yarn/bin/yarn.js init
+
+PATH: 
+  /Users/robiharid/.yarn/bin:/Users/robiharid/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/robiharid/.yarn/bin:/Users/robiharid/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/robiharid/.yarn/lib/cli.js:126002:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:778:16)
+      at ReadStream.onkeypress (readline.js:163:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1014:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:280:12)
+
+npm manifest: 
+  {
+    "name": "github-battle",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
